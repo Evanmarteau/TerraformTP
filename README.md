@@ -15,7 +15,7 @@ Avant de commencer, assurez-vous de disposer des éléments suivants :
 1. Clonez ce dépôt :
 
     ```bash
-    git clone https://github.com/votre-utilisateur/votre-repo.git
+    git clone https://github.com/Evanmarteau/TerraformTP
     cd votre-repo
     ```
 
