@@ -35,7 +35,7 @@ provider "aws" {
   secret_key = var.secret_key # Clé secrète AWS 
 }
 
-
+# Définition d'un VPC
 resource "aws_vpc" "main" {
   # Configuration pour le VPC
   cidr_block = var.vpc_cidr_block # Bloc CIDR pour la VPC
