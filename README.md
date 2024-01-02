@@ -8,6 +8,7 @@ Avant de commencer, assurez-vous de disposer des éléments suivants :
 
 - [Terraform](https://www.terraform.io/) installé sur votre machine.
 - AWS CLI installé sur votre machine
+- Des informations d'identification AWS avec les autorisations appropriées.
 
 Une fois AWS CLI installé faite dans un cmd en administrateur :
 
