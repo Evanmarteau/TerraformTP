@@ -58,11 +58,11 @@ resource "aws_security_group" "allow_tls" {
   }
   
   # Autorisation de tout trafic sortant
-  egress {                           # Port source pour le trafic sortant
-    from_port        = 0             # Port destination pour le trafic sortant
-    to_port          = 0             # Autoriser tous les protocoles pour le trafic sortant
-    protocol         = "-1"          # Autoriser tout trafic sortant vers n'importe quelle destination IPv4
-    cidr_blocks      = ["0.0.0.0/0"] # Autoriser tout trafic sortant vers n'importe quelle destination IPv6
+  egress {                           
+    from_port        = 0             # Port source pour le trafic sortant
+    to_port          = 0             # Port destination pour le trafic sortant
+    protocol         = "-1"          # Autoriser tous les protocoles pour le trafic sortant
+    cidr_blocks      = ["0.0.0.0/0"] # Autoriser tout trafic sortant vers n'importe quelle destination IPv4
   }
 
   tags = {
